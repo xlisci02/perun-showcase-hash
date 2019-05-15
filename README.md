@@ -36,5 +36,5 @@ In case your identity is not defined, set your user name and email address like 
 The command for launching the fuzzing machine can look similar to this:
 
 	mkdir output
-    perun fuzz -b ./wordcount -w seed.txt -o output -t 900 -N 1000000 -mcs unitary
+    perun fuzz -b ./wordcount -w seed.txt -o output -t 900 -N 1000000 -mcs unitary -s . -g .
 
