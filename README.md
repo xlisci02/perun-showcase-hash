@@ -13,8 +13,8 @@ First step is to clone this repository with following command:
 Notice the time difference between the runtime with initial seed and its mutation.
 
     make
-    time ./regex seed.txt
-    time ./regex worst-case-muts/worst_case2.txt
+    time ./wordcount seed.txt
+    time ./wordcount worst-case-muts/worst_case2.txt
 
 ## Want to fuzz ? First initialize
 
@@ -25,7 +25,7 @@ Run the following and close the configuration file that pops up:
 ## Make sure your account's default identity is set
 Run the following command to check your git settings:
 
-	git config --list --show-origin
+	git config --list
 
 In case your identity is not defined, set your user name and email address like this
 
